@@ -1,4 +1,12 @@
-/* index_style.scss
-tip: http://css2sass.heroku.com/  기존 css를 sass로 변환하는 사이트*/
+/* index_style.scss*/
+table.h1 {
+  margin: 2em 0; }
+  table.h1 td.title {
+    text-align: right; }
+
+li {
+  font-family: serif;
+  font-weight: bold;
+  font-size: 1.2em; }
 
 /*# sourceMappingURL=index_style.css.map */
