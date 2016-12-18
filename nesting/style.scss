@@ -1,0 +1,16 @@
+/* nesting(중첩)
+
+   CSS의 특성으로 인해 셀렉터를 중복해서 사용해야하는 경우가 많음
+   Sass의 Nesting을 이용하면 코드 양을 줄이고 연관 코드끼리 그룹핑 가능하다함 
+*/
+
+#navbar {
+  width: 80%;
+  height: 23px;
+ 
+  ul { list-style-type: none; }
+  li {
+    float: left;
+    a { font-weight: bold; }
+  }
+}
